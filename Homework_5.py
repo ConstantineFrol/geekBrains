@@ -19,14 +19,14 @@ def write_into_file(file, text):
         # print(f'Added using print(): {text}', file=file_1)
 
 
-# user_typing = True
-# print('input some text, to stop: input an empty string')
-# while user_typing:
-#     tmp_data = ''
-#     tmp_data = input(': ')
-#     write_into_file(file_name1, tmp_data)
-#     if tmp_data == '':
-#         user_typing = False
+ user_typing = True
+ print('input some text, to stop: input an empty string')
+ while user_typing:
+     tmp_data = ''
+     tmp_data = input(': ')
+     write_into_file(file_name1, tmp_data)
+     if tmp_data == '':
+         user_typing = False
 
 # =============================== Task 2 ===============================
 print('=' * 30, ' Task 2 ', '=' * 30)
